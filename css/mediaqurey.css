@@ -1,0 +1,168 @@
+@media (min-width: 1050px) {
+  .email form .col-md-5{
+    -ms-flex:0 0 41.666667%;
+    flex:0 0 41.666667%;
+    max-width:41%
+  }
+}
+@media (max-width: 995px) {
+  .about .imago {
+    margin-top: 50px;
+  }
+  .about .special {
+    margin-top: 20px;
+  }
+
+  
+  .about .special .ss {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+  }
+  .information .con-left {
+    margin-top: 20px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar::before {
+    display: none;
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 15%;
+    height: 60px;
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+    z-index: 4;
+  }
+  .logo {
+    width: 90px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, 20%);
+    background-color: white;
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  .landing .type h1 {
+    font-size: 40px !important;
+    margin-top: 20px;
+  }
+  .the-end .carousel-item span .text {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+
+  }
+  .email form .dropdown > button > i {
+
+    margin-right: 55%;
+  }
+}
+
+@media (max-width: 550px) {
+  .landing .type h1 {
+    font-size: 31px !important;
+    margin-top: 100px !important;
+  }
+  .landing .type p {
+    font-size: 13px !important;
+    margin: auto !important;
+    margin-top: 30px !important;
+  }
+  .landing .type .buton {
+    margin-top: 20px !important;
+  }
+  .landing .type .buton .btn-outline-light {
+    width: 75%;
+    margin-left: 20px;
+  }
+
+  .email form input:first-of-type,
+  input:last-of-type {
+    border-radius: 10px;
+  }
+
+  .email form .btn-mid {
+    border-radius: 10px;
+  }
+  .end-information .right,
+  .left {
+    width: 40%;
+  }
+  .end-information .left {
+    font-size: 20px;
+  }
+  .end-information div svg {
+    height: 30px !important;
+  }
+  .email .container > .btn {
+    margin-right: -3%;
+  }
+  .arrow0up {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+  }
+  .the-end .carousel-item img {
+    width: 30%;
+    height: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+  }
+  .the-end .carousel-item span .text {
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    text-align: right;
+    color: #eee;
+  }
+  .the-end .carousel-item span .text p {
+    font-size: 4px;
+  }
+  .the-end .carousel-item span .text h3 {
+    font-size: 6px;
+  }
+.type .buton{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+}
+.type .buton button{
+  width: 100% !important;
+  height: 5%;
+  margin: 0 !important;
+font-size: 12px;
+margin-left: 20px !important;
+} 
+}
+@media (max-width: 400px) {
+
+  .landing .type h1 {
+    font-size: 21px !important;
+    margin-top: 220px !important;
+  }
+  .landing .type p {
+    font-size: 13px !important;
+ line-height: 20px;
+}
+.email form .dropdown > button > i {
+  margin-right: 45%;
+}
+.navbar {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+}
